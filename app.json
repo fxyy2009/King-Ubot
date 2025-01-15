@@ -15,15 +15,15 @@
   "stack": "container",
   "env": {
     "API_KEY": {
-      "description": "Dapatkan Api Key di web my.telegram.org.",
+      "description": "22642480",
       "required": true
     },
     "API_HASH": {
-      "description": "Dapatkan Api Hash Di Web my.telegram.org.",
+      "description": "df3439678cd30235b66758a8fb14ff0c",
       "required": true
     },
      "STRING_SESSION": {
-      "description": "Dapatkan String Session di replit caranya ada di repo, jika tidak tau gabung ke @KingUserbotSupport lalu ketik #string",
+      "description": " ",
       "required": true
     },
     "HEROKU_APP_NAME": {
