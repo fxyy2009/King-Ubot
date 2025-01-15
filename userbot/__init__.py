@@ -67,11 +67,11 @@ if CONFIG_CHECK:
     quit(1)
 
 # Telegram App KEY and HASH
-API_KEY = os.environ.get("API_KEY", "")
-API_HASH = os.environ.get("API_HASH", "")
+API_KEY = os.environ.get("22642480", "")
+API_HASH = os.environ.get("df3439678cd30235b66758a8fb14ff0c", "")
 
 # Userbot Session String
-STRING_SESSION = os.environ.get("STRING_SESSION", "")
+STRING_SESSION = os.environ.get("1BZWaqwUAUKT4jt342ViqBwOXMnc73Yn0qV7p4uUWygvgorTeUE7Q_NkkuZw-3KCKqQOdI72etv9KmcMn4F74sD9F8vTPWKoKfRZF4mlz6hgHNJEtlwTW3TQTadgoUpEkftPwPYlYRtXkY6V9B25881-vSXhebrFstuIEiSpc2PX9LmuyjnnY220tPbVOlsFPs8z-RnlTduUVUr8qtwCQ70Tpnl7nUBrcxwtrBw2SrBrfSiPWMKdBZzSQuFjh2F749kcs7YfquQAgaQMBQhxY4ER8dBEbGDKlVAa4jDAytiO5RFrXCiR-mCSI9kj_6JU5JOUAF8MkAXVnIbUaaav_cc-SkqnARvI=", "False")
 
 # Logging channel/group ID configuration.
 BOTLOG_CHATID = int(os.environ.get("BOTLOG_CHATID", ""))
@@ -96,8 +96,8 @@ if G_BAN_LOGGER_GROUP:
 
 # Heroku Credentials for updater.
 HEROKU_MEMEZ = sb(os.environ.get("HEROKU_MEMEZ", "False"))
-HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", "")
-HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", "")
+HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", "False")
+HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", "False")
 
 # JustWatch Country
 WATCH_COUNTRY = os.environ.get("WATCH_COUNTRY", "ID")
